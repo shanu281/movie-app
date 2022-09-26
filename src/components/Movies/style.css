@@ -1,0 +1,117 @@
+body {
+    background-color: antiquewhite;
+}
+
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 49vh;
+    position: relative;
+    transition: 700ms;
+}
+
+.info-btn{
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 320px;
+    transition: 700ms;
+
+    
+}
+.movie-container:hover .info-btn{
+    display: inline;
+    transition: 500ms;
+
+}
+
+.img-container {
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    transition: 700ms;
+
+}
+
+
+
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+button {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    
+
+
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+    transition: 600ms;
+}
+.close-btn{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 0px;
+    padding: 0;
+    float: right;
+
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.flex {
+    display: flex;
+}
+
+.title {
+    margin: 1rem 2rem;
+}
+
+h2 {
+    font-size: 1rem;
+    color: rgb(22, 5, 5);
+    font-weight: 600;
+    line-height: 1.3;
+}
+h3{
+    font-size: 1.2rem;
+    color: red; 
+    font-weight: 700;
+}
+.info{
+    background-color: aliceblue;
+    
+}
+.imdb{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.hide-info{
+    display: none;
+}
+.show-info{
+    display: block;
+}
+.active{
+    background-color: rgb(229, 118, 118);
+    color: white;
+}

@@ -1,0 +1,11 @@
+
+.header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3.2rem;
+    color: rgb(200, 32, 32);
+    font-style: italic;
+    margin-top:1rem;
+    text-shadow: 4px 4px 4px rgb(3, 191, 248);
+    margin-bottom: 2rem;
+  }
